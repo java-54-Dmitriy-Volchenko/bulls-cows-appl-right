@@ -14,3 +14,9 @@
  The interface implementation based on HashMap containing associations of game ID's and game states
 ## Dependencies
 No dependencies
+## Test classes
+### BullsCowsTest
+abstract class for testing of a game logics for any implementation
+### BullsCowsMapImplTest
+extends BullsCowsTest<br>
+contains only creating real object of the implementation and providing reference to Game only for testing purpose
